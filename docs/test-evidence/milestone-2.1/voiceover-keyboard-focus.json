@@ -1,0 +1,77 @@
+{
+  "events" : [
+    {
+      "action" : "initial",
+      "focus" : {
+        "AXDescription" : "Hide Sidebar",
+        "AXRole" : "AXButton",
+        "owned" : true
+      }
+    },
+    {
+      "action" : "Tab 1",
+      "focus" : {
+        "AXRole" : "AXCheckBox",
+        "owned" : true
+      }
+    },
+    {
+      "action" : "Tab 2",
+      "focus" : {
+        "AXRole" : "AXCheckBox",
+        "owned" : true
+      }
+    },
+    {
+      "action" : "Tab 3",
+      "focus" : {
+        "AXRole" : "AXCheckBox",
+        "owned" : true
+      }
+    },
+    {
+      "action" : "Tab 4",
+      "focus" : {
+        "AXRole" : "AXCheckBox",
+        "owned" : true
+      }
+    },
+    {
+      "action" : "Tab 5",
+      "focus" : {
+        "AXRole" : "AXCheckBox",
+        "owned" : true
+      }
+    },
+    {
+      "action" : "Tab 6",
+      "focus" : {
+        "AXRole" : "AXCheckBox",
+        "owned" : true
+      }
+    },
+    {
+      "action" : "VoiceOver next 1",
+      "focus" : {
+        "AXRole" : "AXCheckBox",
+        "owned" : true
+      }
+    },
+    {
+      "action" : "VoiceOver next 2",
+      "focus" : {
+        "AXRole" : "AXIncrementor",
+        "owned" : true
+      }
+    },
+    {
+      "action" : "VoiceOver next 3",
+      "focus" : {
+        "AXRole" : "AXIncrementor",
+        "owned" : true
+      }
+    }
+  ],
+  "scope" : "Only owned focused elements read; actual Tab\/VO-next commands. Spoken audio and VoiceOver cursor order not certified from keyboard-focus attributes.",
+  "voiceOverEnabled" : true
+}

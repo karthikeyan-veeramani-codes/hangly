@@ -1,0 +1,46 @@
+{
+  "accessibilityTrusted" : true,
+  "controls" : [
+    {
+      "label" : "Display · Display",
+      "role" : "AXWindow",
+      "value" : -1
+    },
+    {
+      "label" : "Desktop & Dock",
+      "role" : "AXButton",
+      "value" : -1
+    },
+    {
+      "label" : "Displays",
+      "role" : "AXButton",
+      "value" : -1
+    },
+    {
+      "label" : "Increase contrast",
+      "role" : "AXCheckBox",
+      "value" : 0
+    },
+    {
+      "label" : "Display contrast",
+      "role" : "AXSlider",
+      "value" : 0
+    },
+    {
+      "label" : "Desktop & Dock",
+      "role" : "AXMenuItem",
+      "value" : -1
+    },
+    {
+      "label" : "Displays",
+      "role" : "AXMenuItem",
+      "value" : -1
+    }
+  ],
+  "navigationStatus" : "Named native navigation control not found",
+  "section" : "display",
+  "status" : "READ ONLY",
+  "systemIncreaseContrast" : false,
+  "systemReduceMotion" : false,
+  "systemVoiceOver" : false
+}

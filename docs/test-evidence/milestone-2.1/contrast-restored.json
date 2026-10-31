@@ -1,0 +1,50 @@
+{
+  "accessibilityTrusted" : true,
+  "after" : 0,
+  "before" : 1,
+  "controls" : [
+    {
+      "label" : "Display · Display",
+      "role" : "AXWindow",
+      "value" : -1
+    },
+    {
+      "label" : "Desktop & Dock",
+      "role" : "AXButton",
+      "value" : -1
+    },
+    {
+      "label" : "Displays",
+      "role" : "AXButton",
+      "value" : -1
+    },
+    {
+      "label" : "Increase contrast",
+      "role" : "AXCheckBox",
+      "value" : 1
+    },
+    {
+      "label" : "Display contrast",
+      "role" : "AXSlider",
+      "value" : 0
+    },
+    {
+      "label" : "Desktop & Dock",
+      "role" : "AXMenuItem",
+      "value" : -1
+    },
+    {
+      "label" : "Displays",
+      "role" : "AXMenuItem",
+      "value" : -1
+    }
+  ],
+  "pressResult" : 0,
+  "requested" : 0,
+  "section" : "display",
+  "status" : "PASS",
+  "systemIncreaseContrast" : false,
+  "systemReduceMotion" : false,
+  "systemVoiceOver" : false,
+  "target" : "Increase contrast"
+}

@@ -1,0 +1,27 @@
+{
+  "accessibilityTrusted" : true,
+  "actualUnderlayClickCounts" : {
+    "body" : 2,
+    "outside" : 1,
+    "rapid20Delivered" : 20,
+    "rapidBodyToOutside" : 3,
+    "transparentCorner" : 2
+  },
+  "bodyTarget" : 3367,
+  "generatedDrag" : {
+    "bobDisplacement" : 81.753776219281278,
+    "capturedAfterMouseDown" : true,
+    "finitePosition" : true,
+    "releasedWithoutStuckCapture" : true,
+    "releaseSpeed" : 307.88571609789915,
+    "underlayReceivedDragDown" : false
+  },
+  "nativeBodyHitsOverlay" : false,
+  "nativeMode" : false,
+  "nativeOutsideHitsUnderlay" : true,
+  "nativeTransparentCornerHitsUnderlay" : true,
+  "panelNumber" : 3365,
+  "scope" : "Native WindowServer hit queries with interception enabled; actual generated clicks only inside an owned underlay window. Pointer\/focus restored. No other app content captured.",
+  "screenCaptureAllowed" : true,
+  "underlayNumber" : 3367
+}

@@ -1,0 +1,15 @@
+{
+  "accessibilityTrusted" : true,
+  "controls" : [
+    {
+      "label" : "VoiceOver",
+      "role" : "AXButton",
+      "value" : -1
+    }
+  ],
+  "section" : "display",
+  "status" : "READ ONLY",
+  "systemIncreaseContrast" : false,
+  "systemReduceMotion" : false,
+  "systemVoiceOver" : false
+}

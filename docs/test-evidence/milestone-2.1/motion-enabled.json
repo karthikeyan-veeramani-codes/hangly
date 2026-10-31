@@ -1,0 +1,74 @@
+{
+  "accessibilityTrusted" : true,
+  "after" : 1,
+  "before" : 0,
+  "controls" : [
+    {
+      "label" : "Motion · Motion",
+      "role" : "AXWindow",
+      "value" : -1
+    },
+    {
+      "label" : "Accessibility",
+      "role" : "AXButton",
+      "value" : -1
+    },
+    {
+      "label" : "Desktop & Dock",
+      "role" : "AXButton",
+      "value" : -1
+    },
+    {
+      "label" : "Displays",
+      "role" : "AXButton",
+      "value" : -1
+    },
+    {
+      "label" : "Reduce motion",
+      "role" : "AXCheckBox",
+      "value" : 0
+    },
+    {
+      "label" : "Vehicle Motion Cues",
+      "role" : "AXCheckBox",
+      "value" : 0
+    },
+    {
+      "label" : "Go Back · Go Back",
+      "role" : "AXButton",
+      "value" : -1
+    },
+    {
+      "label" : "Back",
+      "role" : "AXMenuItem",
+      "value" : -1
+    },
+    {
+      "label" : "Accessibility",
+      "role" : "AXMenuItem",
+      "value" : -1
+    },
+    {
+      "label" : "Desktop & Dock",
+      "role" : "AXMenuItem",
+      "value" : -1
+    },
+    {
+      "label" : "Displays",
+      "role" : "AXMenuItem",
+      "value" : -1
+    }
+  ],
+  "navigation" : {
+    "Back" : 0,
+    "Motion" : "Named native navigation control not found"
+  },
+  "pressResult" : 0,
+  "requested" : 1,
+  "section" : "display",
+  "status" : "PASS",
+  "systemIncreaseContrast" : false,
+  "systemReduceMotion" : true,
+  "systemVoiceOver" : false,
+  "target" : "Reduce motion"
+}

@@ -1,0 +1,9 @@
+{
+  "appHideStoppedTimers" : true,
+  "appUnhideRestoredPointer" : true,
+  "overlayWindowServerOnScreenDuringFullscreen" : true,
+  "ownedReferenceEnteredFullscreen" : true,
+  "ownedReferenceExitedFullscreen" : true,
+  "scope" : "Actual owned NSWindow fullscreen and WindowServer metadata, not visual verification of third-party fullscreen or Mission Control.",
+  "screens" : 1
+}

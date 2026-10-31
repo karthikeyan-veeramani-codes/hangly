@@ -1,0 +1,456 @@
+{
+  "date": "2026-10-31",
+  "host": "Apple Silicon MacBook Pro / macOS 27.0.1",
+  "build": "Universal Release, native arm64 execution; implementation-stage baseline",
+  "method": "5 second warmup, seven ps CPU-time/RSS samples across approximately 6 seconds. No overlapping builds/tests.",
+  "limits": "Short preliminary measurements, no long-term leak or cross-device performance certification. Final sleep/import presentation refinements were applied afterward.",
+  "states": [
+    {
+      "mode": "idle",
+      "sample_interval_seconds": 6.048965957998007,
+      "cpu_percent_one_core": 0.165,
+      "rss_kib_min": 54656,
+      "rss_kib_max": 54816
+    },
+    {
+      "mode": "wind",
+      "sample_interval_seconds": 6.034185790995252,
+      "cpu_percent_one_core": 0.829,
+      "rss_kib_min": 54656,
+      "rss_kib_max": 54768
+    },
+    {
+      "mode": "paused",
+      "sample_interval_seconds": 6.07794450000074,
+      "cpu_percent_one_core": 0.658,
+      "rss_kib_min": 54752,
+      "rss_kib_max": 54880
+    },
+    {
+      "mode": "hidden",
+      "sample_interval_seconds": 6.080631791002816,
+      "cpu_percent_one_core": 0.0,
+      "rss_kib_min": 49088,
+      "rss_kib_max": 54448
+    }
+  ],
+  "milestone2": {
+    "date": "2026-10-31",
+    "binary_sha256": "5ec795e3f1b17c293845fb0af5c9f266bada6f979f927c287e603013755e855d",
+    "method": "Universal Release/native arm64; 5s warm-up then 7 ps samples over ~6s. Diagnostic modes use isolated preferences; idle variations/sleep disabled except ambient scenario. CPU-time resolution 0.01s. No overlapping builds/tests.",
+    "results": [
+      {
+        "count": 1,
+        "mode": "idle",
+        "sample_interval_seconds": 6.053571958997054,
+        "cpu_percent_one_core": 0.165,
+        "rss_kib_min": 55808,
+        "rss_kib_max": 56032
+      },
+      {
+        "count": 1,
+        "mode": "paused",
+        "sample_interval_seconds": 6.077396665998094,
+        "cpu_percent_one_core": 1.152,
+        "rss_kib_min": 55792,
+        "rss_kib_max": 56128
+      },
+      {
+        "count": 1,
+        "mode": "idle",
+        "sample_interval_seconds": 6.079419333997066,
+        "cpu_percent_one_core": 0.987,
+        "rss_kib_min": 55664,
+        "rss_kib_max": 55904
+      },
+      {
+        "count": 1,
+        "mode": "paused",
+        "sample_interval_seconds": 6.0695496249973075,
+        "cpu_percent_one_core": 0.494,
+        "rss_kib_min": 55664,
+        "rss_kib_max": 55984
+      },
+      {
+        "count": 1,
+        "mode": "wind",
+        "sample_interval_seconds": 6.078460249998898,
+        "cpu_percent_one_core": 1.316,
+        "rss_kib_min": 55520,
+        "rss_kib_max": 55776
+      },
+      {
+        "count": 1,
+        "mode": "hidden",
+        "sample_interval_seconds": 6.106292291005957,
+        "cpu_percent_one_core": 0.0,
+        "rss_kib_min": 55328,
+        "rss_kib_max": 55680
+      },
+      {
+        "count": 3,
+        "mode": "idle",
+        "sample_interval_seconds": 6.09286629199778,
+        "cpu_percent_one_core": 0.657,
+        "rss_kib_min": 55856,
+        "rss_kib_max": 56144
+      },
+      {
+        "count": 3,
+        "mode": "wind",
+        "sample_interval_seconds": 6.078051291995507,
+        "cpu_percent_one_core": 1.481,
+        "rss_kib_min": 55920,
+        "rss_kib_max": 56112
+      },
+      {
+        "count": 6,
+        "mode": "idle",
+        "sample_interval_seconds": 6.090324332995806,
+        "cpu_percent_one_core": 0.821,
+        "rss_kib_min": 55968,
+        "rss_kib_max": 56272
+      },
+      {
+        "count": 6,
+        "mode": "wind",
+        "sample_interval_seconds": 6.0972283340015565,
+        "cpu_percent_one_core": 3.444,
+        "rss_kib_min": 56016,
+        "rss_kib_max": 56288
+      },
+      {
+        "count": 6,
+        "mode": "ambient",
+        "sample_interval_seconds": 6.087863499997184,
+        "cpu_percent_one_core": 0.986,
+        "rss_kib_min": 55936,
+        "rss_kib_max": 56160
+      }
+    ],
+    "limits": "Short implementation-stage samples from an interactive host; not cross-device guarantees. CPU-time resolution is 0.01s. No long-term allocation/leak/energy audit. Repeated settled/paused ordering reverses; no verified improvement claim."
+  },
+  "milestone2_1": {
+    "date": "2026-10-31",
+    "binary_sha256": "addb36dd74b10e765057ab6df1cfec1777ceace5db49f7ea0d52e6779442617f",
+    "method": "10-second warm-up, 61 samples spanning at least 60 seconds; isolated final Release arm64 processes; no concurrent builds/tests",
+    "raw_evidence": ".build/m21-performance/results.json",
+    "process": [
+      {
+        "name": "01-1-idle",
+        "count": 1,
+        "mode": "idle",
+        "measured_seconds": 60.78569900000002,
+        "cpu_percent_one_core": 0.674500757160002,
+        "rss_kib_min": 41920,
+        "rss_kib_max": 52928,
+        "rss_kib_first10_mean": 52849.6,
+        "rss_kib_last10_mean": 44675.2,
+        "post_warm_deltas": {
+          "renders": 0,
+          "steps": 0,
+          "frameCallbacks": 0,
+          "assetDecodes": 0
+        },
+        "valid_settled_baseline": true,
+        "errors": []
+      },
+      {
+        "name": "02-1-swing",
+        "count": 1,
+        "mode": "swing",
+        "measured_seconds": 60.66018187499867,
+        "cpu_percent_one_core": 1.648527863072817,
+        "rss_kib_min": 45136,
+        "rss_kib_max": 45888,
+        "rss_kib_first10_mean": 45267.2,
+        "rss_kib_last10_mean": 45712,
+        "post_warm_deltas": {
+          "renders": 4334,
+          "steps": 8640,
+          "frameCallbacks": 4320,
+          "assetDecodes": 0
+        },
+        "valid_settled_baseline": false,
+        "errors": []
+      },
+      {
+        "name": "03-3-idle",
+        "count": 3,
+        "mode": "idle",
+        "measured_seconds": 60.87827395799832,
+        "cpu_percent_one_core": 2.2339660959151098,
+        "rss_kib_min": 43376,
+        "rss_kib_max": 53056,
+        "rss_kib_first10_mean": 52900.8,
+        "rss_kib_last10_mean": 47665.6,
+        "post_warm_deltas": {
+          "renders": 2581,
+          "steps": 4794,
+          "frameCallbacks": 1088,
+          "assetDecodes": 0
+        },
+        "valid_settled_baseline": false,
+        "errors": []
+      },
+      {
+        "name": "04-3-swing",
+        "count": 3,
+        "mode": "swing",
+        "measured_seconds": 60.86476720799692,
+        "cpu_percent_one_core": 3.6310004972953083,
+        "rss_kib_min": 45024,
+        "rss_kib_max": 53136,
+        "rss_kib_first10_mean": 49129.6,
+        "rss_kib_last10_mean": 46560,
+        "post_warm_deltas": {
+          "renders": 13002,
+          "steps": 25920,
+          "frameCallbacks": 4320,
+          "assetDecodes": 0
+        },
+        "valid_settled_baseline": false,
+        "errors": []
+      },
+      {
+        "name": "05-6-idle",
+        "count": 6,
+        "mode": "idle",
+        "measured_seconds": 61.02249916700384,
+        "cpu_percent_one_core": 0.7865951190991965,
+        "rss_kib_min": 46464,
+        "rss_kib_max": 53088,
+        "rss_kib_first10_mean": 52896,
+        "rss_kib_last10_mean": 46966.4,
+        "post_warm_deltas": {
+          "renders": 0,
+          "steps": 0,
+          "frameCallbacks": 0,
+          "assetDecodes": 0
+        },
+        "valid_settled_baseline": true,
+        "errors": []
+      },
+      {
+        "name": "06-6-swing",
+        "count": 6,
+        "mode": "swing",
+        "measured_seconds": 60.87601100000029,
+        "cpu_percent_one_core": 4.780208085579041,
+        "rss_kib_min": 47504,
+        "rss_kib_max": 47760,
+        "rss_kib_first10_mean": 47648,
+        "rss_kib_last10_mean": 47713.6,
+        "post_warm_deltas": {
+          "renders": 25998,
+          "steps": 51846,
+          "frameCallbacks": 4318,
+          "assetDecodes": 0
+        },
+        "valid_settled_baseline": false,
+        "errors": []
+      },
+      {
+        "name": "07-6-wind",
+        "count": 6,
+        "mode": "wind",
+        "measured_seconds": 60.85208883299492,
+        "cpu_percent_one_core": 5.422985575822485,
+        "rss_kib_min": 50448,
+        "rss_kib_max": 52800,
+        "rss_kib_first10_mean": 52800,
+        "rss_kib_last10_mean": 50456,
+        "post_warm_deltas": {
+          "renders": 25908,
+          "steps": 51840,
+          "frameCallbacks": 4318,
+          "assetDecodes": 0
+        },
+        "valid_settled_baseline": false,
+        "errors": []
+      },
+      {
+        "name": "08-1-paused",
+        "count": 1,
+        "mode": "paused",
+        "measured_seconds": 60.9281847500024,
+        "cpu_percent_one_core": 0.8370510332658153,
+        "rss_kib_min": 52736,
+        "rss_kib_max": 52784,
+        "rss_kib_first10_mean": 52755.2,
+        "rss_kib_last10_mean": 52784,
+        "post_warm_deltas": {
+          "renders": 0,
+          "steps": 0,
+          "frameCallbacks": 0,
+          "assetDecodes": 0
+        },
+        "valid_settled_baseline": false,
+        "errors": []
+      },
+      {
+        "name": "09-1-hidden",
+        "count": 1,
+        "mode": "hidden",
+        "measured_seconds": 60.99535883299541,
+        "cpu_percent_one_core": 0.29510442014586385,
+        "rss_kib_min": 41488,
+        "rss_kib_max": 52240,
+        "rss_kib_first10_mean": 52219.2,
+        "rss_kib_last10_mean": 43225.6,
+        "post_warm_deltas": {
+          "renders": 0,
+          "steps": 0,
+          "frameCallbacks": 0,
+          "assetDecodes": 0
+        },
+        "valid_settled_baseline": false,
+        "errors": []
+      },
+      {
+        "name": "10-1-settings",
+        "count": 1,
+        "mode": "settings",
+        "measured_seconds": 60.70162899999559,
+        "cpu_percent_one_core": 3.410122650909665,
+        "rss_kib_min": 56272,
+        "rss_kib_max": 91408,
+        "rss_kib_first10_mean": 61080,
+        "rss_kib_last10_mean": 87264,
+        "post_warm_deltas": {
+          "renders": 732,
+          "steps": 1466,
+          "frameCallbacks": 731,
+          "assetDecodes": 0
+        },
+        "valid_settled_baseline": false,
+        "errors": []
+      },
+      {
+        "name": "11-1-library",
+        "count": 1,
+        "mode": "library",
+        "measured_seconds": 60.63936837499932,
+        "cpu_percent_one_core": 2.8529320907525357,
+        "rss_kib_min": 61200,
+        "rss_kib_max": 73776,
+        "rss_kib_first10_mean": 73515.2,
+        "rss_kib_last10_mean": 70062.4,
+        "post_warm_deltas": {
+          "renders": 95,
+          "steps": 184,
+          "frameCallbacks": 92,
+          "assetDecodes": 0
+        },
+        "valid_settled_baseline": false,
+        "errors": []
+      },
+      {
+        "name": "12-1-idle",
+        "count": 1,
+        "mode": "idle",
+        "measured_seconds": 60.986140708002495,
+        "cpu_percent_one_core": 0.6722838914550311,
+        "rss_kib_min": 45136,
+        "rss_kib_max": 52880,
+        "rss_kib_first10_mean": 52745.6,
+        "rss_kib_last10_mean": 45428.8,
+        "post_warm_deltas": {
+          "renders": 0,
+          "steps": 0,
+          "frameCallbacks": 0,
+          "assetDecodes": 0
+        },
+        "valid_settled_baseline": true,
+        "errors": []
+      },
+      {
+        "name": "13-1-paused",
+        "count": 1,
+        "mode": "paused",
+        "measured_seconds": 60.90309733399772,
+        "cpu_percent_one_core": 0.5582638894954904,
+        "rss_kib_min": 52768,
+        "rss_kib_max": 52992,
+        "rss_kib_first10_mean": 52857.6,
+        "rss_kib_last10_mean": 52792,
+        "post_warm_deltas": {
+          "renders": 0,
+          "steps": 0,
+          "frameCallbacks": 0,
+          "assetDecodes": 0
+        },
+        "valid_settled_baseline": false,
+        "errors": []
+      },
+      {
+        "name": "14-3-idle",
+        "count": 3,
+        "mode": "idle",
+        "measured_seconds": 60.49882345899823,
+        "cpu_percent_one_core": 0.4462896707123349,
+        "rss_kib_min": 52816,
+        "rss_kib_max": 53040,
+        "rss_kib_first10_mean": 52888,
+        "rss_kib_last10_mean": 52816,
+        "post_warm_deltas": {
+          "renders": 0,
+          "steps": 0,
+          "frameCallbacks": 0,
+          "assetDecodes": 0
+        },
+        "valid_settled_baseline": true,
+        "errors": []
+      }
+    ],
+    "instruments": [
+      {
+        "name": "time-paused",
+        "template": "Time Profiler",
+        "duration_requested": 60,
+        "record_exit": 0,
+        "export_exit": 0,
+        "export_message": "Finished export to the file: /Users/karthikeyan/Downloads/project/hangly/.build/m21-performance/time-paused-toc.xml\n"
+      },
+      {
+        "name": "time-six-wind",
+        "template": "Time Profiler",
+        "duration_requested": 60,
+        "record_exit": 0,
+        "export_exit": 0,
+        "export_message": "Finished export to the file: /Users/karthikeyan/Downloads/project/hangly/.build/m21-performance/time-six-wind-toc.xml\n"
+      },
+      {
+        "name": "allocations-churn",
+        "template": "Allocations + live leaks scans",
+        "record_exit": 17,
+        "export_exit": 40,
+        "early_leaks_exit": 1,
+        "late_leaks_exit": 1
+      },
+      {
+        "name": "power-six-wind",
+        "template": "Power Profiler",
+        "duration_requested": 60,
+        "record_exit": 2,
+        "export_exit": 10,
+        "export_message": "Export failed: Trace is malformed - run data is missing.\n"
+      }
+    ],
+    "limitations": [
+      "03-3-idle excluded as settled: post-warm motion; repeat14 validated",
+      "Allocations recording/export failed with storage exhaustion",
+      "Power Profiler unsupported on macOS",
+      "Leaks nonzero NSXPCConnection roots reproduced by minimal native control; no leak-free claim",
+      "No causal performance improvement versus short M2 samples or energy target claimed"
+    ],
+    "native_control_leaks": {
+      "early_blocks": 417,
+      "early_bytes": 26496,
+      "late_blocks": 412,
+      "late_bytes": 26240,
+      "root_cycles_each": 3,
+      "status": "Nonzero framework-root findings reproduced independently"
+    }
+  }
+}

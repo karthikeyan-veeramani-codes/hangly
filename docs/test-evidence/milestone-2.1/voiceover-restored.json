@@ -1,0 +1,75 @@
+{
+  "accessibilityTrusted" : true,
+  "after" : 0,
+  "before" : 1,
+  "controls" : [
+    {
+      "label" : "VoiceOver · VoiceOver",
+      "role" : "AXWindow",
+      "value" : -1
+    },
+    {
+      "label" : "Accessibility",
+      "role" : "AXButton",
+      "value" : -1
+    },
+    {
+      "label" : "Desktop & Dock",
+      "role" : "AXButton",
+      "value" : -1
+    },
+    {
+      "label" : "Displays",
+      "role" : "AXButton",
+      "value" : -1
+    },
+    {
+      "label" : "VoiceOver",
+      "role" : "AXCheckBox",
+      "value" : 1
+    },
+    {
+      "label" : "Open VoiceOver Tutorial…",
+      "role" : "AXButton",
+      "value" : -1
+    },
+    {
+      "label" : "Open VoiceOver Utility…",
+      "role" : "AXButton",
+      "value" : -1
+    },
+    {
+      "label" : "Go Back · Go Back",
+      "role" : "AXButton",
+      "value" : -1
+    },
+    {
+      "label" : "Back",
+      "role" : "AXMenuItem",
+      "value" : -1
+    },
+    {
+      "label" : "Accessibility",
+      "role" : "AXMenuItem",
+      "value" : -1
+    },
+    {
+      "label" : "Desktop & Dock",
+      "role" : "AXMenuItem",
+      "value" : -1
+    },
+    {
+      "label" : "Displays",
+      "role" : "AXMenuItem",
+      "value" : -1
+    }
+  ],
+  "pressResult" : 0,
+  "requested" : 0,
+  "section" : "voiceover",
+  "status" : "PASS",
+  "systemIncreaseContrast" : false,
+  "systemReduceMotion" : false,
+  "systemVoiceOver" : false,
+  "target" : "VoiceOver"
+}

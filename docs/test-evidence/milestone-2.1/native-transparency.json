@@ -1,0 +1,18 @@
+{
+  "accessibilityTrusted" : true,
+  "actualUnderlayClickCounts" : {
+    "body" : 0,
+    "outside" : 0,
+    "rapidBodyToOutside" : 0,
+    "transparentCorner" : 0
+  },
+  "bodyTarget" : 2836,
+  "nativeBodyHitsOverlay" : true,
+  "nativeMode" : true,
+  "nativeOutsideHitsUnderlay" : false,
+  "nativeTransparentCornerHitsUnderlay" : false,
+  "panelNumber" : 2836,
+  "scope" : "Native WindowServer hit queries with interception enabled; actual generated clicks only inside an owned underlay window. Pointer\/focus restored. No other app content captured.",
+  "screenCaptureAllowed" : true,
+  "underlayNumber" : 2837
+}

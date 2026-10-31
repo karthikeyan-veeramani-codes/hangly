@@ -1,0 +1,30 @@
+{
+  "scope" : "Only target process windows, no other application content or full desktop captured.",
+  "status" : "CAPTURED OWNED WINDOWS",
+  "windows" : [
+    {
+      "height" : 982,
+      "image" : "3376-owned.png",
+      "title" : "",
+      "width" : 1512,
+      "windowNumber" : 3376,
+      "windowServerOnScreen" : true
+    },
+    {
+      "height" : 674,
+      "image" : "3379-owned.png",
+      "title" : "General",
+      "width" : 800,
+      "windowNumber" : 3379,
+      "windowServerOnScreen" : true
+    },
+    {
+      "height" : 682,
+      "image" : "3378-owned.png",
+      "title" : "Character Library",
+      "width" : 840,
+      "windowNumber" : 3378,
+      "windowServerOnScreen" : true
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "churnCycles" : 0,
+  "errors" : [
+
+  ],
+  "final" : {
+    "accessibilityTrusted" : true,
+    "active" : 1,
+    "assetDecodes" : 0,
+    "dragging" : false,
+    "frameCallbacks" : 0,
+    "increaseContrast" : false,
+    "maximumFrameGap" : 0,
+    "onBattery" : false,
+    "panels" : 1,
+    "pointerTimer" : true,
+    "reduceMotion" : false,
+    "renders" : 3,
+    "screenCaptureAllowed" : true,
+    "screenCount" : 1,
+    "simulationTimer" : false,
+    "steps" : 0,
+    "uptime" : 45323.394722208337,
+    "voiceOverEnabled" : false
+  },
+  "warm" : {
+    "accessibilityTrusted" : true,
+    "active" : 1,
+    "assetDecodes" : 0,
+    "dragging" : false,
+    "frameCallbacks" : 0,
+    "increaseContrast" : false,
+    "maximumFrameGap" : 0,
+    "onBattery" : false,
+    "panels" : 1,
+    "pointerTimer" : true,
+    "reduceMotion" : false,
+    "renders" : 3,
+    "screenCaptureAllowed" : true,
+    "screenCount" : 1,
+    "simulationTimer" : false,
+    "steps" : 0,
+    "uptime" : 45298.005460083339,
+    "voiceOverEnabled" : false
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "activeSpaceNotifications" : 3,
+  "controlLeftLeftOwnedSpace" : false,
+  "controlRightReturnedToOwnedSpace" : true,
+  "enteredOwnedFullscreen" : true,
+  "exitedOwnedFullscreen" : true,
+  "fullscreenAutoHidesMenuBar" : true,
+  "missionControlApplicationLaunched" : true,
+  "missionControlIdentifiersAfterEscape" : [
+
+  ],
+  "missionControlIdentifiersBefore" : [
+
+  ],
+  "missionControlIdentifiersDuring" : [
+
+  ],
+  "missionControlObservedThroughAccessibility" : false,
+  "scope" : "Actual controlled keyboard commands and owned fullscreen Space; no Stage Manager or preference changes. Only Dock Mission-Control identifiers retained, no other app titles\/content."
+}
